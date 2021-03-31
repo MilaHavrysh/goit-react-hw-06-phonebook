@@ -14,7 +14,7 @@ const initialStateItems = {
 };
 
 const Submit = (state, { payload }) => {
-  console.log(state);
+  //console.log(state);
   let arrayName = state.map(elem => elem.name).find(el => el === payload.name);
   console.log(arrayName);
   if (arrayName === undefined) {
